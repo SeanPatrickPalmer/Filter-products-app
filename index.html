@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <script src="./src/controller.js" defer type="module"></script>
+    <title>Product Filtering My Attempt </title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="input-container">
+                <i class="search-icon fa-solid fa-magnifying-glass"></i>
+                <input class="search-input" id="search-input" type="text" placeholder="Search products" autocomplete="off" >
+            </div>
+            
+            <div class="basket-container">
+                <i class="basket fa-solid fa-basket-shopping"></i>
+                <div class="product-counter" id="product-counter">0</div>
+            </div>
+        </div>
+    </nav>
+    <aside>
+        <div class="aside-container">
+            
+            <h2>Categories</h2>
+            <div>
+                <input type="checkbox" class="cameras" id="cameras">
+                <label for="cameras">Cameras</label>
+            </div>
+            <div>
+                <input type="checkbox" class="smartphones" id="smartphones">
+                <label for="smartphones">Smartphones</label>
+            </div>
+            <div>
+                <input type="checkbox" class="televisions" id="televisions">
+                <label for="televisions">Televisions</label>
+            </div>
+            <div>
+                <input type="checkbox" class="games" id="games">
+                <label for="games">Games</label>
+            </div>
+        </div>    
+    </aside>  
+    <main id='main'> </main>    
+   
+</body>
+</html>

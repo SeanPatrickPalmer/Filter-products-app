@@ -1,0 +1,17 @@
+{
+  "name": "product-filtering-my-attempt",
+  "version": "1.0.0",
+  "description": "practice with array methods",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Sean P",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2"
+  }
+}
